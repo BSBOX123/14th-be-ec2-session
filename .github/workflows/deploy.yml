@@ -42,7 +42,7 @@ jobs:
           # EC2 서버에 접속한 뒤 실행할 명령어들
           script: |
             # EC2 안에 clone되어 있는 프로젝트 폴더로 이동
-            cd ~/14th-be-ec2-session
+            cd ~/test/14th-be-ec2-session
 
             # GitHub main 브랜치의 최신 코드 반영
             git pull origin main
